@@ -629,9 +629,9 @@ function HeroAudioPlayer({ isMobile }) {
           {formatTime(currentTime)}
         </div>
 
-        <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.08]">
+        <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.16] shadow-inner shadow-black/20">
           <div
-            className="absolute inset-y-0 right-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5]"
+            className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5] shadow-[0_0_10px_rgba(212,175,55,0.18)]"
             style={{ width: `${progress}%` }}
           />
           <input
@@ -944,9 +944,9 @@ function ProtectedHlsVideoCard({
             {formatTime(currentTime)}
           </div>
 
-          <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.08]">
+          <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.16] shadow-inner shadow-black/20">
             <div
-              className="absolute inset-y-0 right-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5]"
+              className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5] shadow-[0_0_10px_rgba(212,175,55,0.18)]"
               style={{ width: `${progress}%` }}
             />
             <input
