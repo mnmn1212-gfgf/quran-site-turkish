@@ -61,9 +61,9 @@ const pulseGlow = {
 const containerClass =
   "relative z-10 mx-auto w-full max-w-[1680px] px-4 sm:px-6 lg:px-10 xl:px-14";
 const glass =
-  `border border-[#e7d6b2]/35 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_24px_rgba(0,0,0,0.24)]`;
+  `border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
 const softCard = `rounded-[2rem] ${glass}`;
-const gradientOuterCard = `rounded-[2rem] border border-[#e7d6b2]/35 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_24px_rgba(0,0,0,0.24)]`;
+const gradientOuterCard = `rounded-[2rem] border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
 
 const navItems = [
   { label: "Hakkımızda", href: "#about" },
@@ -629,9 +629,9 @@ function HeroAudioPlayer({ isMobile }) {
           {formatTime(currentTime)}
         </div>
 
-        <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.16] shadow-inner shadow-black/20">
+        <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.08]">
           <div
-            className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5] shadow-[0_0_10px_rgba(212,175,55,0.18)]"
+            className="absolute inset-y-0 right-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5]"
             style={{ width: `${progress}%` }}
           />
           <input
@@ -944,9 +944,9 @@ function ProtectedHlsVideoCard({
             {formatTime(currentTime)}
           </div>
 
-          <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.16] shadow-inner shadow-black/20">
+          <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/[0.08]">
             <div
-              className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5] shadow-[0_0_10px_rgba(212,175,55,0.18)]"
+              className="absolute inset-y-0 right-0 rounded-full bg-gradient-to-r from-[#8B0000] via-[#D4AF37] to-[#F8E7B5]"
               style={{ width: `${progress}%` }}
             />
             <input
@@ -1181,7 +1181,7 @@ export default function QuranTranslationLandingPage() {
                             ease: "easeInOut",
                           }
                     }
-                    className="rounded-3xl border border-white/10 bg-white/[0.06] backdrop-blur-xl p-3 text-center shadow-[0_8px_20px_rgba(0,0,0,0.25)] sm:p-4"
+                    className="rounded-3xl border border-white/10 bg-white/[0.08] p-3 text-center backdrop-blur-md shadow-[0_6px_16px_rgba(0,0,0,0.12)] sm:p-4"
                   >
                     <div className="text-xl font-black sm:text-2xl" style={{ color: ACCENT }}>
                       {item.value}
@@ -1573,7 +1573,7 @@ export default function QuranTranslationLandingPage() {
                       </div>
                       <a
                         href="mailto:snachannel159@gmail.com"
-                        className="flex items-center justify-center gap-3 rounded-2xl border border-[#D4AF37]/30 bg-[#8B0000]/26 px-4 py-3 text-center text-sm font-semibold text-[#F8E7B5] transition hover:bg-[#8B0000]/38 sm:text-base"
+                        className="flex items-center justify-center gap-3 rounded-2xl border border-emerald-200/20 bg-emerald-400/10 px-4 py-3 text-center text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20 sm:text-base"
                       >
                         <Mail className="h-4 w-4" style={{ color: ACCENT }} />
                         Gönder
@@ -1611,14 +1611,14 @@ export default function QuranTranslationLandingPage() {
                     Sana... Âlemlere bir tebliğ
                   </div>
 
-                  <p className="mx-auto mt-4 max-w-[30rem] rounded-[1.4rem] border border-white/10 bg-[linear-gradient(135deg,rgba(23,24,29,0.82),rgba(74,34,42,0.76),rgba(122,13,22,0.72))] px-4 py-4 text-sm leading-7 text-white/78 sm:px-5 sm:text-base sm:leading-8">
+                  <p className="mx-auto mt-4 max-w-[30rem] rounded-[1.4rem] border border-white/10 bg-[rgba(38,67,57,0.55)] px-4 py-4 text-sm leading-7 text-white/78 sm:px-5 sm:text-base sm:leading-8">
                     Kur'an-ı Kerim anlamlarının tüm dünya dillerine çevirileri için sesli ve görsel kanallar
                     küresel ölçekte, sunumun estetiğini, anlamın doğruluğunu ve mesajın ruhunu bir araya getiren vakıf temelli bir projede
                     mesajın ruhuyla birlikte.
                   </p>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/[0.06] p-4 sm:p-5 flex flex-col items-center justify-center text-center">
+                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(145deg,rgba(23,24,29,0.82),rgba(74,34,42,0.74),rgba(122,13,22,0.68))] p-4 backdrop-blur-md sm:p-5 flex flex-col items-center justify-center text-center">
                   <div className="mb-5 flex flex-col items-center justify-center gap-4 text-lg font-bold text-white sm:text-xl">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06] shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <MessageCircle className="h-6 w-6" style={{ color: ACCENT }} />
@@ -1629,13 +1629,13 @@ export default function QuranTranslationLandingPage() {
                   <div className="w-full space-y-4 text-white/72">
                     <a
                       href="mailto:snachannel159@gmail.com"
-                      className="flex items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[#130B0D]/72 px-4 py-3 text-sm transition hover:bg-white/[0.08] sm:text-base"
+                      className="flex items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[#081512]/50 px-4 py-3 text-sm transition hover:bg-white/[0.08] sm:text-base"
                     >
                       <Mail className="h-4 w-4 shrink-0" style={{ color: ACCENT }} />
                       snachannel159@gmail.com
                     </a>
 
-                    <div className="flex items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[#130B0D]/72 px-4 py-3 text-sm sm:text-base">
+                    <div className="flex items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[#081512]/50 px-4 py-3 text-sm sm:text-base">
                       <MapPin className="h-4 w-4 shrink-0" style={{ color: ACCENT }} />
                       Amman - Ürdün
                     </div>
@@ -1658,7 +1658,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(145deg,rgba(23,24,29,0.82),rgba(74,34,42,0.74),rgba(122,13,22,0.68))] p-4 backdrop-blur-md sm:p-5 flex flex-col items-center justify-center text-center">
+                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.04))] p-4 backdrop-blur-md sm:p-5 flex flex-col items-center justify-center text-center">
                   <div className="mb-5 flex flex-col items-center justify-center gap-4 text-lg font-bold text-white sm:text-xl">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06] shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <Link2 className="h-6 w-6" style={{ color: ACCENT }} />
@@ -1706,7 +1706,7 @@ export default function QuranTranslationLandingPage() {
                       </a>
                     </div>
 
-                    <div className="mt-5 rounded-[1.4rem] border border-white/10 bg-[#130B0D]/72 p-4">
+                    <div className="mt-5 rounded-[1.4rem] border border-white/10 bg-[#0b1d19]/60 p-4">
                       <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-white/65">
                         <span>⭐ 4.9 puan</span>
                         <span>🌍 100+ ülke</span>
@@ -1716,7 +1716,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://www.youtube.com/@SAN-AR-m5i"
                         target="_blank"
                         rel="noreferrer"
-                        className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-[#D4AF37]/30 bg-[linear-gradient(90deg,rgba(23,24,29,0.96),rgba(74,34,42,0.9),rgba(122,13,22,0.86))] py-3 text-sm font-bold text-[#F8E7B5] transition hover:scale-[1.01] hover:bg-[linear-gradient(90deg,rgba(30,31,38,0.98),rgba(90,38,49,0.92),rgba(145,16,28,0.9))]"
+                        className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-200/20 bg-emerald-400/10 py-3 text-sm font-bold text-emerald-100 transition hover:scale-[1.01] hover:bg-emerald-400/20"
                       >
                         <Sparkles className="h-4 w-4" />
                         Şimdi başla
