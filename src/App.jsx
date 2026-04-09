@@ -681,7 +681,7 @@ function StructuredCard({ icon: Icon, title, desc, isMobile }) {
     >
       <div className="h-full rounded-[1.5rem] border border-white/10 bg-white/[0.06] p-4">
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#D4AF37]/12">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#8B0000]/12">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
           </div>
           <h3 className="text-base font-bold leading-7 text-white sm:text-lg lg:text-xl">
@@ -704,7 +704,7 @@ function IdentityCard({ icon: Icon, title, text, large = false, isMobile }) {
     >
       <div className="h-full rounded-[1.5rem] border border-white/10 bg-white/[0.06] p-4">
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#D4AF37]/12">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#8B0000]/12">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
           </div>
           <div
@@ -737,7 +737,7 @@ function ImpactCard({ icon: Icon, title, desc, isMobile }) {
     >
       <div className="h-full rounded-[1.5rem] border border-white/10 bg-white/[0.06] p-4">
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#D4AF37]/12">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#8B0000]/12">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
           </div>
           <h3 className="text-base font-bold text-white sm:text-lg lg:text-xl">
@@ -1015,12 +1015,12 @@ export default function QuranTranslationLandingPage() {
         dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.18),transparent_28%),radial-gradient(circle_at_80%_20%,rgba(227,10,23,0.16),transparent_24%),radial-gradient(circle_at_20%_80%,rgba(139,0,0,0.18),transparent_26%),linear-gradient(180deg,#050505_0%,#0B0B0F_42%,#19090B_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(180,20,30,0.18),transparent_28%),radial-gradient(circle_at_80%_20%,rgba(227,10,23,0.16),transparent_24%),radial-gradient(circle_at_20%_80%,rgba(120,0,10,0.18),transparent_26%),linear-gradient(180deg,#050505_0%,#0B0B0F_42%,#140708_100%)]" />
 
         {!isMobile && (
           <>
             <motion.div
-              className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-[#D4AF37]/12 blur-3xl"
+              className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-[#8B0000]/12 blur-3xl"
               animate={pulseGlow}
             />
             <div className="absolute inset-0 opacity-[0.06]">
@@ -1680,7 +1680,7 @@ export default function QuranTranslationLandingPage() {
                         className="group rounded-[1.3rem] border border-white/10 bg-white/[0.06] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
                         <div className="flex items-center justify-center gap-3">
-                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D4AF37]/12 text-white">
+                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#8B0000]/12 text-white">
                             <GooglePlayIcon />
                           </div>
                           <span className="whitespace-nowrap text-sm font-bold text-white sm:text-base">
@@ -1696,7 +1696,7 @@ export default function QuranTranslationLandingPage() {
                         className="group rounded-[1.3rem] border border-white/10 bg-white/[0.06] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
                         <div className="flex items-center justify-center gap-3">
-                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D4AF37]/12 text-white">
+                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#8B0000]/12 text-white">
                             <AppStoreIcon />
                           </div>
                           <span className="text-sm font-bold text-white sm:text-base">
