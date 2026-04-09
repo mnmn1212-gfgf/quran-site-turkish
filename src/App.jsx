@@ -61,9 +61,9 @@ const pulseGlow = {
 const containerClass =
   "relative z-10 mx-auto w-full max-w-[1680px] px-4 sm:px-6 lg:px-10 xl:px-14";
 const glass =
-  `border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
+  `border border-[#e7d6b2]/35 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_24px_rgba(0,0,0,0.24)]`;
 const softCard = `rounded-[2rem] ${glass}`;
-const gradientOuterCard = `rounded-[2rem] border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
+const gradientOuterCard = `rounded-[2rem] border border-[#e7d6b2]/35 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_24px_rgba(0,0,0,0.24)]`;
 
 const navItems = [
   { label: "Hakkımızda", href: "#about" },
