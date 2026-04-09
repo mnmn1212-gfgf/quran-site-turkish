@@ -1181,7 +1181,7 @@ export default function QuranTranslationLandingPage() {
                             ease: "easeInOut",
                           }
                     }
-                    className="rounded-3xl border border-white/10 bg-white/[0.08] p-3 text-center backdrop-blur-md shadow-[0_6px_16px_rgba(0,0,0,0.12)] sm:p-4"
+                    className="rounded-3xl border border-[#D4AF37]/25 bg-[linear-gradient(135deg,#0B0B0F_0%,#1A1A1F_35%,#5A0F14_70%,#8B0000_100%)] p-3 text-center backdrop-blur-md shadow-[0_10px_28px_rgba(0,0,0,0.35)] sm:p-4"
                   >
                     <div className="text-xl font-black sm:text-2xl" style={{ color: ACCENT }}>
                       {item.value}
