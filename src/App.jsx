@@ -39,7 +39,7 @@ const ACCENT = "#D4AF37";
 const CTA_DARK = "#0B0B0F";
 
 const OUTER_GRADIENT =
-  "bg-[linear-gradient(135deg,#0B0B0F_0%,#1A1A1F_38%,#5A0B12_72%,#8B0000_100%)]";
+  "bg-[linear-gradient(135deg,#17181d_0%,#2a2b31_28%,#4a222a_58%,#7a0d16_82%,#b30000_100%)]";
 const INNER_GRADIENT =
   "bg-[linear-gradient(135deg,#080808_0%,#141418_45%,#241010_100%)]";
 
@@ -61,9 +61,9 @@ const pulseGlow = {
 const containerClass =
   "relative z-10 mx-auto w-full max-w-[1680px] px-4 sm:px-6 lg:px-10 xl:px-14";
 const glass =
-  "border border-[#D4AF37]/18 bg-white/[0.07] md:backdrop-blur-xl backdrop-blur-sm shadow-[0_14px_34px_rgba(0,0,0,0.34)]";
+  `border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
 const softCard = `rounded-[2rem] ${glass}`;
-const gradientOuterCard = `rounded-[2rem] border border-[#D4AF37]/22 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
+const gradientOuterCard = `rounded-[2rem] border border-[#e7d6b2] ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_42px_rgba(0,0,0,0.32)]`;
 
 const navItems = [
   { label: "Hakkımızda", href: "#about" },
