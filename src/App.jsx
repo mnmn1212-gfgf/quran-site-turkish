@@ -1208,7 +1208,7 @@ export default function QuranTranslationLandingPage() {
                     <div>
                       <p className="text-xs text-white/60 sm:text-sm">Geçerli dil</p>
                       <h3 className="mt-1 text-xl font-bold sm:text-2xl">
-                        Kur'an Arapça
+                        Türkçe Kur'an
                       </h3>
                     </div>
                     <div className="w-fit rounded-2xl border border-[#D4AF37]/30 bg-[#8B0000]/35 px-4 py-2 text-xs text-[#F8E7B5] sm:text-sm">
